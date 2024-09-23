@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+
+ 
+
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    color: white;
+}
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    z-index: -1;
+}
+.hero .content-box {
+    position: relative;
+    z-index: 2;
+    max-width: 70%;
+    padding: 2rem;
+}
+
+.content-box h1{
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+
+.nav-btn button{
+    background-color: transparent;
+    border: 1px solid #fff ;
+    text-align: center;
+    border-radius: 0;
+  
+}
+
+.nav-btn button:hover{
+    background-color: #fff;
+    color: #2f343d;
+    border: none;
+}
+
+.hero h1{
+    text-shadow: 2px 2px 2px rgb(54, 54, 54);
+} 
+
+.getStarted-btn{
+    background-color:#2f343d;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 0;
+    height: 50px;
+    font-size: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+
+.getStarted-btn:hover{
+    background-color: #fff;
+    color: #2f343d;
+    border: none;
+}
+
+nav li{
+    font-size: 20px;
+}
+
+.content-box span{
+    font-size: 70px;
+}
+.cards-section-titles h2{
+    margin: auto ;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.card-btn{
+
+background-color: #fff;
+color: black;
+border: 1px solid black;
+border-radius:0 ;
+font-weight: bold;
+padding: 15px 25px;
+
+ 
+}
+
+.card-btn:hover{
+    background-color: #1F316F;
+    color: #fff;
+    border: none;
+    
+}
+
+.dulu{
+    font-size: 25px;
+}
+
+.WhoDulu-container{
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+    
+margin-top: 40px;
+
+text-align: left;
+}
+
+
+
+.whyUs-title {
+
+    margin: auto ;
+font-size: 50px;
+margin-top: 30px;
+padding-bottom: 20px;
+
+}
+
+.whyUs-btn{
+    background-color: transparent;
+    border: 1px solid #fff ;
+    text-align: center;
+    border-radius: 0;
+
+}
+
+.whyUs-btn:hover{
+    background-color: #1F316F;
+    color: #fff;
+    border: none;
+
+}
+
+
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid #fff ;
+    border-radius: 0;
+
+}
+
+.carousel.pointer-event {
+    touch-action: pan-y;
+}
+.carousel {
+    margin-bottom: 4rem;
+
+}
+.carousel {
+    position: relative;
+height: 100%;}
+
+.projectBtn {
+    background-color: #fff;
+    color: #2f343d;
+    border-radius: 0;
+    padding: 10px 20px;
+    border: none;
+
+
+}
+
+
+.testimony-title{
+   text-align: center;
+   padding-bottom: 40px;
+   font-size: 40px;
+  
+
+    }
+
+    .projectTitle{
+        font-size: 40px;
+
+    }
+#projects .container{
+    height: 100%;
+   
+}
+
+#projects{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.first-cardFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.long-card{
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+    background-color: #fff;
+}
+
+.card-video video{ width: 100%;
+
+}
+.card-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+}
+
+.projectTitle{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.card{
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+   
+}
+
+.card p{
+    font-weight: lighter;
+    padding-top: 20px;
+}
+#testimonies{
+    padding-top: 30px;
+
+    
+    
+}
+.textArea{
+    display: flex;
+}
+
+.contactUs-banner{
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #2f343d 74%);
+
+}
+#whyUs{width: 100%;
+margin-top: 50px;
+background: linear-gradient(to right, rgb(33, 150, 243), rgb(244, 67, 54));
+}
+
+.borderHover li :hover{
+    border-bottom: 1px solid #808080;
+  
+}
+
+.navFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contactUs-btn{
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #2f343d;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+}
+
+.contactUs-btn:hover{
+    background-color: #1F316F;
+    color: #fff;
+    border: none;
+}
+
+.modal-submitBtn{
+
+    background-color: #fff;
+    color: #2f343d;
+    border-radius: 0;
+    border: none;
+}
+
+.modal-submitBtn:hover{
+    background-color: #1F316F;
+    color: #fff;
+    border: none;
+
+}
+
+.modal-closeBtn{
+    background-color: transparent;
+    border: 1px solid #fff ;
+    border-radius: 0;
+
+}
+
+@media (max-width: 1040px) {
+    .first-cardFlex{
+        flex-direction: column;
+    }
+.contactUs-banner{
+    flex-direction: column;
+}
+   
+}
+
+@media (min-width: 768px) {
+   #projects .container {
+            max-width: 1150px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .navbar li { font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+ 
+    }
+
+
+    .WhoDulu-container{flex-direction: column;
+        align-items: center;
+    }
+
+    .WhoDulu-text{
+        padding: 0 80px;
+        text-align: center;
+    
+    }
+
+    }
